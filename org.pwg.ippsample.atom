@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:docset="http://developer.apple.com/rss/docset_extensions" xml:lang="en">
+    <id>https://istopwg.github.io/ippsample/org.pwg.ippsample.atom/20170406155142</id>
+    <title type="text">org.pwg.ippsample</title>
+    <link rel="self" href="https://istopwg.github.io/ippsample/org.pwg.ippsample.atom"></link>
+    <updated>2017-04-06T15:51:42-04:00</updated>
+    <entry>
+        <id>tag:istopwg.github.io,2017-04-6:org.pwg.ippsample.docset/1.0.0</id>
+        <title type="text">CUPS API Programming Guide</title>
+        <updated>2017-04-06T15:51:42-04:00</updated>
+        <content type="text">CUPS API Programming Guide (v1.0.0)</content>
+        <link rel="enclosure" type="application/octet-stream" href="https://istopwg.github.io/ippsample/org.pwg.ippsample.xar" length="419465"></link>
+        <docset:identifier>org.pwg.ippsample.docset</docset:identifier>
+        <docset:version>1.0.0</docset:version>
+    </entry>
+</feed>
