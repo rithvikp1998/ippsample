@@ -54,7 +54,7 @@ a.button:hover {
   display: inline;
 }
 
-.nav a {
+.nav li a {
   color: #fff;
   padding: 7px 10px 10px;
   text-decoration: none;
@@ -65,14 +65,23 @@ a.button:hover {
   color: #b8c3ff;
 }
 
-.nav img {
+.nav li a img {
   border: thin solid #fff;
   height: 27px;
   vertical-align: middle;
 }
 
-.nav img:hover {
+.nav li a img:hover {
   border: thin solid #b8c3ff;
+}
+
+.nav-right {
+  float: right;
+  margin-right: 20px;
+}
+
+.nav-right img {
+  margin-right: 20px;
 }
 
 .head {
