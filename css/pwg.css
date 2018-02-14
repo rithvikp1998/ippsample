@@ -77,6 +77,7 @@ a.button:hover {
 
 .nav-right {
   float: right;
+  margin-top: 5px;
   margin-right: 20px;
 }
 
@@ -456,8 +457,29 @@ div.body dd {
 }
 
 /* iPhone/iPod touch overrides */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px),
-       only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+@media only screen and (max-width: 414px) {
+  .nav {
+    height: auto;
+    padding: 5px;
+    position: relative;
+  }
+  .nav ul {
+    padding-left: 0px;
+  }
+  .nav li {
+    list-style-type: none;
+  }
+  .nav li a {
+    padding: 0px 0px 0px 10px; /* TRBL */
+  }
+  .nav-right {
+    float: none;
+    margin: 0px;
+  }
+  .nav-right img {
+    margin: 10px 0px 0px 10px; /* TRBL */
+  }
+
   .head {
     padding: 10px 0px;
   }
