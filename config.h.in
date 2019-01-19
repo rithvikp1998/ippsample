@@ -337,6 +337,11 @@
 #undef HAVE_MUPDF
 #undef HAVE_FZ_NEW_PIXMAP_5_ARG
 
+/*
+ * Do we have libjpeg?
+ */
+
+#undef HAVE_JPEG
 
 /*
  * Select/poll interfaces...

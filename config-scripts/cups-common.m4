@@ -209,6 +209,14 @@ case $uname in
 		;;
 esac
 
+dnl ippdoclint: check for libjpeg
+AC_CHECK_LIB(jpeg, jpeg_destroy_decompress, [
+	AC_MSG_RESULT([    Using libjpeg for JPEG linting])
+
+	AC_DEFINE(HAVE_JPEG)
+	LIBS="-ljpeg $LIBS"
+])
+
 # 3D support
 IPPTRANSFORM3D_BIN=""
 IPPTRANSFORM3D_HTML=""
